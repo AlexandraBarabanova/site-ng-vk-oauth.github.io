@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-
+console.log('dfhgfhgfh');
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist'));
 
